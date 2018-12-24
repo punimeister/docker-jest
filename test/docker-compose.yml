@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  jest:
+    image: 'punimeister/jest'
+    restart: 'on-failure'
+    environment:
+      WATCH: '0'
+    volumes:
+      - './web:/app/web:ro'
