@@ -1,13 +1,6 @@
-# punimeister/jest
+# Supported tags and respective `Dockerfile` links
 
-[![Docker Stars](https://img.shields.io/docker/stars/punimeister/jest.svg)](https://hub.docker.com/r/punimeister/jest/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/punimeister/jest.svg)](https://hub.docker.com/r/punimeister/jest/)
-[![Docker Automated](https://img.shields.io/docker/automated/punimeister/jest.svg)](https://hub.docker.com/r/punimeister/jest/)
-[![Docker Build](https://img.shields.io/docker/build/punimeister/jest.svg)](https://hub.docker.com/r/punimeister/jest/)
-
-## Source Code
-
-### [jest:latest](https://github.com/punimeister/docker-jest/tree/master/latest)
+- [`latest` (latest/Dockerfile)](https://github.com/punimeister/docker-jest/blob/master/latest/Dockerfile)
 
 ## Environment Variables
 
