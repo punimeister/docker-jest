@@ -35,7 +35,7 @@ services:
     environment:
       WATCH: '0'
     volumes:
-      - './web:/app/web:ro'
+      - './web:/app/web'
 ```
 
 ### add.js
