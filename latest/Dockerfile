@@ -8,4 +8,4 @@ WORKDIR /app
 
 RUN yarn install --no-progress
 
-CMD sh -c 'if [ "${WATCH}" = "1" ]; then yarn test:watch; else yarn test; fi'
+CMD sh -c "if [ "${WATCH}" = "1" ]; then yarn test:watch; else yarn test; fi"
