@@ -24,29 +24,29 @@ When set to 1 enable to watch mode
 
 ### docker-compose.yml
 
-```
+```yaml
 version: '3'
 
 services:
 
   jest:
-    image: 'punimeister/jest'
-    restart: 'on-failure'
+    image: punimeister/jest
+    restart: on-failure
     environment:
-      WATCH: '0'
+      WATCH: 0
     volumes:
-      - './web:/app/web'
+      - ./web:/app/web
 ```
 
 ### add.js
 
-```
+```javascript
 export const add = (a, b) => a + b;
 ```
 
 ### add.spec.js
 
-```
+```javascript
 import { add } from './add';
 
 test('1 + 1 = 2', () => {

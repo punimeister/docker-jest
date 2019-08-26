@@ -3,9 +3,9 @@ version: '3'
 services:
 
   jest:
-    image: 'punimeister/jest'
-    restart: 'on-failure'
+    image: punimeister/jest
+    restart: on-failure
     environment:
-      WATCH: '0'
+      WATCH: 0
     volumes:
-      - './web:/app/web'
+      - ./web:/app/web
